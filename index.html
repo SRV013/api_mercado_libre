@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script async src="./index.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div class="container">
+    <h1>buscador mercado libre</h1>
+<header class="header">
+    <form class="search-from" action="">
+        <input class="search-input" type="text" name="buscar" placeholder="buscar" autofocus="autofocus">
+        <button class="search-button">Buscar</button>
+    </form>
+</header>
+
+    <div class="content">
+        <h2 >Resultado</h3>
+            <div class="results">
+              <template id="result-items-template">
+              <div class="result-item">
+                  <img class="result-item-img" >
+                  <div class="result-item-content">
+                      <h4 class="result-item-title"></h4>
+                      <p class="result-item-condition"></p>
+                      <p class="result-item-shell-count">></p>
+                    </div>
+                    <div class="result-item-price"></div>
+                </div>
+            </template>   
+            </div>  
+    </div>
+</div>    
+</body>
+</html>

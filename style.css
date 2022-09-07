@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,700&display=swap');
+*{ box-sizing: border-box;}
+body{
+        margin: 0;
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;}
+h1{
+    font-size: 16px;
+    font-weight: 500; 
+    text-transform: uppercase;
+    text-align: center;}
+h3{
+    font-size: 16px;
+    font-weight: 500; 
+
+}  
+.container {
+    max-width: 650px;
+    margin: auto;
+    }
+.header{
+    background-color: #FFF159;
+    padding: 12px 0px;
+    border-radius:10px;
+}
+.search-from{
+    display: flex;
+    padding: 0 20px;
+}
+.search-input{
+    padding: 13px 5px;
+    flex-grow: 1;
+    margin-right:15px ;
+    font-size: 18px;
+}
+.search-button{
+    padding: 13px 35px;
+    font-weight: 400;
+}
+
+.result-item{
+    border-bottom: dashed #000 1px;
+    display: flex;    
+    padding: 15px;
+    margin-top: 20px;
+    align-items: center;
+}
+.result-item-content{
+    flex-grow: 1; 
+    padding: 0 13px;
+}
+.result-item-img{
+    height: 100%;
+    width: 100px;
+}
+.result-item-tittle{
+font-weight: 400;
+margin: 0px;
+}
+
+.result-item-condition{
+font-weight: 300;
+}
+.result-item-shell-count::before{
+    content: "Vendidos: ";
+font-weight: 800;
+}
+.result-item-price, .result-item-price::before{
+content: "$ ";
+    font-weight: 700;
+    font-size: 20px;
+    color: brown;
+}
